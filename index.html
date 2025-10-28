@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookMarketPlace</title>
+    <title>Student Book Market</title>
     <link rel="stylesheet" href="style.css">
+  </head>
 
- </head>
- <body>
+  <body>
     <header>
-        <h1>Student Book Market</h1>
-        <nav>
-         <a href="#">Home</a>
-         <a href="#">Add Book</a>
-         <a href="#">Login</a>
-        </nav>
+      <h1>Student Book Market</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Add Book</a>
+        <a href="#">Login</a>
+      </nav>
     </header>
 
- </body>
+    <section id="search">
+      <input type="text" placeholder="Search for books...">
+      <button>Search</button>
+    </section>
+
+    <section id="book-list">
+      <div class="book-card">
+        <img src="images/book1.jpg" alt="Book 1">
+        <h3>Clean Code</h3>
+        <p>by Robert C. Martin</p>
+        <p>$20</p>
+      </div>
+
+      <div class="book-card">
+        <img src="images/book2.jpg" alt="Book 2">
+        <h3>Introduction to Algorithms</h3>
+        <p>by Cormen et al.</p>
+        <p>$35</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Student Book Market</p>
+      <a href="#">About</a> | <a href="#">Contact</a>
+    </footer>
+  </body>
 </html>
