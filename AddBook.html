@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Book | Student Book Market</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Student Book Market</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="AddBook.html">Add Book</a>
+      <a href="LogIn.html">Login</a>
+    </nav>
+  </header>
+
+  <section id="add-book">
+    <h2>Add a New Book</h2>
+
+    <form id="book-form">
+      <label>Book Title</label>
+      <input type="text" placeholder="Enter book title" required>
+
+      <label>Author</label>
+      <input type="text" placeholder="Enter author's name" required>
+
+      <label>Price</label>
+      <input type="number" placeholder="Enter price in $" required>
+
+      <label>Description</label>
+      <textarea placeholder="Short description about the book"></textarea>
+
+      <label>Condition</label>
+      <select>
+        <option>New</option>
+        <option>Used - Like New</option>
+        <option>Used - Good</option>
+        <option>Used - Fair</option>
+      </select>
+
+      <label>Book Image</label>
+      <input type="file" accept="image/*">
+
+      <button type="submit">Add Book</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Student Book Market</p>
+  </footer>
+
+</body>
+</html>
